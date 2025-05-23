@@ -129,6 +129,24 @@ section+section {
   box-shadow: 1px 1px 5px var(--pink);
 }
 
+.invite {
+  max-width: 50rem;
+  margin: 0 auto;
+  background-color: var(--victorgreen);
+  color: var(--brown);
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+
+.invite p {
+  text-align: justify;
+}
+
+.quote {
+  color: var(--seagreen);
+  margin: 0;
+}
+
 .team img {
   width:100%;
   max-width: 500px;
@@ -255,6 +273,11 @@ td.win {
 
   #Teams .row img {
     max-width: 100%;
+  }
+
+  .invite {
+    font-size:1rem;
+    padding: 2rem;
   }
 
   #Scores table {
