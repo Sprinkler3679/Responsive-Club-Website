@@ -210,6 +210,10 @@ td.win {
 }
 
 @media only screen and (max-width: 1024px) {
+  html {
+    font-size: 24px;
+  }
+  
   .team img {
     width: 100%;
   }
